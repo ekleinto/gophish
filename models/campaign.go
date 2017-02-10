@@ -213,6 +213,10 @@ func getCampaignStats(cid int64) (CampaignStats, error) {
 	if err != nil {
 		return s, err
 	}
+	query.Where("status=?", EVENT_ENABLED).Count(&s.EnabledContent)
+	if err != nil {
+		return s, err
+	}
 	query.Where("status=?", EVENT_DATA_SUBMIT).Count(&s.SubmittedData)
 	if err != nil {
 		return s, err
