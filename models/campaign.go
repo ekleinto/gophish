@@ -61,7 +61,7 @@ type CampaignStats struct {
 	OpenedEmail    int64 `json:"opened"`
 	ClickedLink    int64 `json:"clicked"`
 	SubmittedData  int64 `json:"submitted_data"`
-	EnabledContent int64 'json:"enabled_content"`
+	EnabledContent int64 `json:"enabled_content"`
 	Error          int64 `json:"error"`
 }
 
