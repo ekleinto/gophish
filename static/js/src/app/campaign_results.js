@@ -14,7 +14,7 @@ var statuses = {
         slice: "ct-slice-donut-opened",
         legend: "ct-legend-opened",
         label: "label-warning",
-        icon: "fa-envelope",
+        icon: "fa-envelope-open",
         point: "ct-point-opened"
     },
     "Clicked Link": {
@@ -28,7 +28,7 @@ var statuses = {
         slice: "ct-slice-donut-enabled",
         legend: "ct-legend-enabled",
         label: "label-danger",
-        icon: "fa-exclamation",
+        icon: "fa-unlock-alt",
         point: "ct-point-enabled"
     },
     "Success": {
